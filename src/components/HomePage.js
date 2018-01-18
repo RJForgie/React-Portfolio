@@ -22,10 +22,11 @@ class HomePage extends Component {
           >
             <div
               className="content"
-              style={{"position" : "absolute"}}
+              style={{"position" : "absolute", "text-align" : "center"}}
               >
                 <NavBar />
                 <Intro />
+                <Links />
                 </div>
               </section>
 

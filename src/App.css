@@ -1,25 +1,22 @@
-.bio {
-  background-color: red;
-}
 
-.App {
-  text-align: center;
-  margin: 15px;
-}
 
 .content {
   height: 50vh;
   color: white;
   position: absolute;
-  text-align: center;
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 img {
   border-radius: 50%;
-  max-width: 50%;
+  max-width: 30%;
   border-width: 10px;
   border-color: white;
   border-style: solid;
+  margin: 0px;
 }
 
 header {
@@ -45,4 +42,9 @@ footer {
   height: 50px;
   color: white;
   position: absolute;
+}
+
+.js-color-stop {
+  margin: 0px;
+  padding: 0px;
 }

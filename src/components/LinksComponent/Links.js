@@ -6,13 +6,11 @@ class Links extends Component {
     return (
         <Grid>
           <Row className="show-grid">
-            <Col xs={4-3} md={4-4}>
-
-
+            <Col xs={6} md={6}>
+              <Button>LinkedIn</Button>
             </Col>
-            <Col xs={4-5} md={4-4}>
-
-
+            <Col xs={4-4} md={4-4}>
+              <Button>Github</Button>
             </Col>
           </Row>
         </Grid>
