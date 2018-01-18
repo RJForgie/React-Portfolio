@@ -22,13 +22,6 @@ img {
   border-style: solid;
 }
 
-.github-button {
-  background: url('./images/Github.png') left center no-repeat;
-  padding-left: 15px;
-  width: 150px;
-  height: 75px;
-}
-
 header {
   display: block;
   width: 100%;

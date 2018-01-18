@@ -3,6 +3,7 @@ import { Bootstrap, Button, Jumbotron, Row, Grid, Col } from 'react-bootstrap';
 import ScrollingColorBackground from 'react-scrolling-color-background'
 import NavBar from './HeaderComponent/NavBar.js';
 import Intro from './Introduction/Intro.js';
+import Links from './LinksComponent/Links.js';
 
 class HomePage extends Component {
   render() {
@@ -25,7 +26,6 @@ class HomePage extends Component {
               >
                 <NavBar />
                 <Intro />
-                  <Button className="github-button">Button</Button>
                 </div>
               </section>
 
