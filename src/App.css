@@ -4,10 +4,7 @@
   height: 50vh;
   color: white;
   position: absolute;
-  text-align: left;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 
 img {
@@ -42,9 +39,4 @@ footer {
   height: 50px;
   color: white;
   position: absolute;
-}
-
-.js-color-stop {
-  margin: 0px;
-  padding: 0px;
 }
