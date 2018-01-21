@@ -1,15 +1,54 @@
 
 
-.content {
-  height: 50vh;
-  color: white;
-  position: absolute;
-  width: 100%;
+#intro-section {
+  color: red;
+  height: 100vh;
+  display : flex;
+  align-items : center;
+  text-align: center;
 }
+
+#background-section {
+  color: green;
+  height: 100vh;
+  position: relative;
+  display : flex;
+  align-items : center;
+  text-align: center;
+}
+
+#project1-section {
+  color: green;
+  height: 100vh;
+  position: relative;
+  display : flex;
+  align-items : center;
+  text-align: center;
+}
+
+#project2-section {
+  color: green;
+  height: 100vh;
+  position: relative;
+  display : flex;
+  align-items : center;
+  text-align: center;
+}
+
+#project3-section {
+  color: green;
+  height: 100vh;
+  position: relative;
+  display : flex;
+  align-items : center;
+  text-align: center;
+}
+
+
 
 img {
   border-radius: 50%;
-  max-width: 30%;
+  max-width: 20%;
   border-width: 10px;
   border-color: white;
   border-style: solid;

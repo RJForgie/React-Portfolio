@@ -5,23 +5,23 @@ import profileImage from '../../images/newprofile.JPG'
 class Intro extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <Grid fluid={true}>
           <Row className="show-grid">
-            <Col xs={12} md={12}>
+            <Col xs={12} md={12} lg={12}>
               <img src={profileImage} alt="My logo" />
               <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
                 Cicero in 45 BC</p>
             </Col>
           </Row>
           <Row className="show-grid">
-            <Col xs={12} md={12}>
+            <Col xs={12} md={12} lg={12}>
               <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
                 Cicero in 45 BC</p>
             </Col>
           </Row>
           <Row className="show-grid">
-            <Col xs={4-4} xsOffset={4-4}>
+            <Col xs={12} md={12} lg={12}>
               <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
                 Cicero in 45 BC</p>
             </Col>
