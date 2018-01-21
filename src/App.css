@@ -59,6 +59,10 @@
   max-width: 70%;
 }
 
+#icon {
+  font-size: 120px;
+}
+
 header {
   display: block;
   width: 100%;

@@ -39,6 +39,8 @@ class HomePage extends Component {
                 <div>
                   <img className="screenshot" src={test} alt="My logo" />
                       <Button>Button</Button>
+                      <i id="icon" class="devicon-postgresql-plain-wordmark colored"></i>
+
                     </div>
                   </section>
             <section
@@ -63,6 +65,7 @@ class HomePage extends Component {
                       voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
                       repellat."</p>
                       <Button>Button</Button>
+
                     </div>
                   </section>
             <section
