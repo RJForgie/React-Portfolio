@@ -3,8 +3,8 @@
 #intro-section {
   color: red;
   height: 100vh;
-  display : flex;
-  align-items : center;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
@@ -12,8 +12,8 @@
   color: green;
   height: 100vh;
   position: relative;
-  display : flex;
-  align-items : center;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
@@ -21,8 +21,8 @@
   color: green;
   height: 100vh;
   position: relative;
-  display : flex;
-  align-items : center;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
@@ -30,8 +30,8 @@
   color: green;
   height: 100vh;
   position: relative;
-  display : flex;
-  align-items : center;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
@@ -39,20 +39,24 @@
   color: green;
   height: 100vh;
   position: relative;
-  display : flex;
-  align-items : center;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
 
 
-img {
+.profile-img {
   border-radius: 50%;
   max-width: 20%;
   border-width: 10px;
   border-color: white;
   border-style: solid;
   margin: 0px;
+}
+
+.screenshot {
+  max-width: 70%;
 }
 
 header {

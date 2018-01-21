@@ -9,7 +9,7 @@ class Intro extends Component {
         <Grid fluid={true}>
           <Row className="show-grid">
             <Col xs={12} md={12} lg={12}>
-              <img src={profileImage} alt="My logo" />
+              <img className="profile-img" src={profileImage} alt="My logo" />
               <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
                 Cicero in 45 BC</p>
             </Col>
