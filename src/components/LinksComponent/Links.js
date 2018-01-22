@@ -7,10 +7,10 @@ class Links extends Component {
         <Grid>
           <Row className="show-grid">
             <Col xs={6} md={6}>
-              <Button>LinkedIn</Button>
+              <Button className="link-button" bsStyle="primary">LinkedIn</Button>
             </Col>
             <Col xs={4-4} md={4-4}>
-              <Button>Github</Button>
+              <Button className="link-button" bsStyle="primary">Github</Button>
             </Col>
           </Row>
         </Grid>

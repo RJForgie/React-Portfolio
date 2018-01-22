@@ -3,6 +3,7 @@ import { Bootstrap, Button, Jumbotron, Row, Grid, Col } from 'react-bootstrap';
 import ScrollingColorBackground from 'react-scrolling-color-background'
 import NavBar from './HeaderComponent/NavBar.js';
 import Intro from './Introduction/Intro.js';
+import CodeIcons from './CodeIconsComponent/CodeIcons.js';
 import Links from './LinksComponent/Links.js';
 import test from '../images/test.gif'
 
@@ -36,10 +37,9 @@ class HomePage extends Component {
               className='js-color-stop'
               id="background-section"
               >
-                <div>
+                <div id="project">
+                  <CodeIcons />
                   <img className="screenshot" src={test} alt="My logo" />
-                      <Button>Button</Button>
-                      <i id="icon" class="devicon-postgresql-plain-wordmark colored"></i>
 
                     </div>
                   </section>
