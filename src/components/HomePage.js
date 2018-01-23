@@ -6,6 +6,12 @@ import Intro from './Introduction/Intro.js';
 import CodeIcons from './CodeIconsComponent/CodeIcons.js';
 import Links from './LinksComponent/Links.js';
 import test from '../images/test.gif'
+import ruby from '../images/ruby.svg'
+import postgres from '../images/postgres.svg'
+import html from '../images/html.svg'
+import css from '../images/css.svg'
+
+const project1 = [ruby, postgres, html, css]
 
 class HomePage extends Component {
   render() {
@@ -26,7 +32,6 @@ class HomePage extends Component {
             <div
               style={{"position" : "absolute", "width" : "100%"}}
               >
-
                 <Intro />
                 <Links />
               </div>
@@ -40,7 +45,6 @@ class HomePage extends Component {
                 <div id="project">
                   <CodeIcons />
                   <img className="screenshot" src={test} alt="My logo" />
-
                     </div>
                   </section>
             <section

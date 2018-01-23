@@ -1,15 +1,14 @@
 body {
   font-family: futura;
   font-size: 20px;
-
   color: #000;
 }
 
 .link-button {
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 0px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: center;
 }
 
 #intro-section {
