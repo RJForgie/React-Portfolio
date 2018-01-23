@@ -11,7 +11,7 @@ import postgres from '../images/postgres.svg'
 import html from '../images/html.svg'
 import css from '../images/css.svg'
 
-const project1 = [ruby, postgres, html, css]
+const project1 = [ruby, postgres, html, css];
 
 class HomePage extends Component {
   render() {
@@ -43,7 +43,7 @@ class HomePage extends Component {
               id="background-section"
               >
                 <div id="project">
-                  <CodeIcons />
+                  <CodeIcons icons={project1}/>
                   <img className="screenshot" src={test} alt="My logo" />
                     </div>
                   </section>
