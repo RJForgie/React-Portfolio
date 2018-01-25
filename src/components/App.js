@@ -5,10 +5,10 @@ import HomePage from './HomePage';
 import Footer from './FooterComponent/Footer.js';
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div>
-        <HomePage/>
+        <HomePage />
         {/* <Footer/> */}
       </div>
     )

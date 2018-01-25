@@ -50,8 +50,6 @@ body {
   text-align: center;
 }
 
-
-
 .profile-img {
   border-radius: 50%;
   max-width: 20%;
@@ -62,7 +60,7 @@ body {
 }
 
 .screenshot {
-  max-width: 60%;
+  max-width: 40%;
 }
 
 .icon {

@@ -5,13 +5,14 @@ import NavBar from './HeaderComponent/NavBar.js';
 import Intro from './Introduction/Intro.js';
 import CodeIcons from './CodeIconsComponent/CodeIcons.js';
 import Links from './LinksComponent/Links.js';
-import test from '../images/test.gif'
-import ruby from '../images/ruby.svg'
-import postgres from '../images/postgres.svg'
-import html from '../images/html.svg'
-import css from '../images/css.svg'
+import test from '../images/MoneyCashBoardScreenshot.png';
+import ruby from '../images/ruby.svg';
+import postgres from '../images/postgres.svg';
+import html from '../images/html.svg';
+import css from '../images/css.svg';
+import ProjectDescriptions from '../text/projectDescriptions.js';
 
-const project1 = [ruby, postgres, html, css];
+const project1 = {icons: [ruby, postgres, html, css], description: ProjectDescriptions.MoneyCashBoard};
 
 class HomePage extends Component {
   render() {
@@ -28,32 +29,32 @@ class HomePage extends Component {
           data-background-color='rgb(4, 20, 79)'
           className='js-color-stop'
           id="intro-section"
+        >
+          <div
+            style={{ "position": "absolute", "width": "100%" }}
           >
-            <div
-              style={{"position" : "absolute", "width" : "100%"}}
-              >
-                <Intro />
-                <Links />
-              </div>
-            </section>
+            <Intro />
+            <Links />
+          </div>
+        </section>
 
-            <section
-              data-background-color='rgb(32, 202, 172)'
-              className='js-color-stop'
-              id="background-section"
-              >
-                <div id="project">
-                  <CodeIcons icons={project1}/>
-                  <img className="screenshot" src={test} alt="My logo" />
-                    </div>
-                  </section>
-            <section
-              data-background-color='rgb(254, 201, 64)'
-              className='js-color-stop'
-              id="project1-section"
-              >
-                <div>
-                    <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
+        <section
+          data-background-color='rgb(32, 202, 172)'
+          className='js-color-stop'
+          id="background-section"
+        >
+          <div id="project">
+            <CodeIcons project1={project1} />
+            <img className="screenshot" src={test} alt="My logo" />
+          </div>
+        </section>
+        <section
+          data-background-color='rgb(254, 201, 64)'
+          className='js-color-stop'
+          id="project1-section"
+        >
+          <div>
+            <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
                       Cicero in 45 BC
 
                       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -68,17 +69,17 @@ class HomePage extends Component {
                       Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
                       voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
                       repellat."</p>
-                      <Button>Button</Button>
+            <Button>Button</Button>
 
-                    </div>
-                  </section>
-            <section
-              data-background-color='rgb(101, 45, 172)'
-              className='js-color-stop'
-              id="project2-section"
-              >
-                <div>
-                    <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
+          </div>
+        </section>
+        <section
+          data-background-color='rgb(101, 45, 172)'
+          className='js-color-stop'
+          id="project2-section"
+        >
+          <div>
+            <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
                       Cicero in 45 BC
 
                       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -93,16 +94,16 @@ class HomePage extends Component {
                       Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
                       voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
                       repellat."</p>
-                      <Button>Button</Button>
-                    </div>
-                  </section>
-            <section
-              data-background-color='rgb(32, 202, 100)'
-              className='js-color-stop'
-              id="project3-section"
-              >
-                <div>
-                    <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
+            <Button>Button</Button>
+          </div>
+        </section>
+        <section
+          data-background-color='rgb(32, 202, 100)'
+          className='js-color-stop'
+          id="project3-section"
+        >
+          <div>
+            <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
                       Cicero in 45 BC
 
                       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -117,12 +118,12 @@ class HomePage extends Component {
                       Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
                       voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
                       repellat."</p>
-                      <Button>Button</Button>
-                    </div>
-                  </section>
-                </div>
-              )
-            }
-          }
+            <Button>Button</Button>
+          </div>
+        </section>
+      </div>
+    )
+  }
+}
 
-          export default HomePage;
+export default HomePage;
