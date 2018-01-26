@@ -85,6 +85,23 @@ header {
   color: white;
   position:absolute;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  margin: 15px 10px 0 10px;
+  background-color: transparent;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
 #headerButtons {
   list-style-type: none;
   margin: 0;

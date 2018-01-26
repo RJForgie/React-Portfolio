@@ -16,10 +16,10 @@ class CodeIcons extends Component {
       //   </Row> 
       // </Grid>
       <div id="icon-container">
-        <span class="devicons devicons-ruby"/>
-        <span class="devicons devicons-postgresql"/>
-        <span class="devicons devicons-html5"/>
-        <span class="devicons devicons-css3"/>
+        <span className="devicons devicons-ruby"/>
+        <span className="devicons devicons-postgresql"/>
+        <span className="devicons devicons-html5"/>
+        <span className="devicons devicons-css3"/>
       </div>
       
     );

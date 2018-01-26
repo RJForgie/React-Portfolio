@@ -10,13 +10,13 @@ class Links extends Component {
           <Row className="show-grid">
             <Col xs={6} md={6}>
               <Button className="link-button" bsStyle="primary">
-                <img className="button-icon" src={linkedin}/>
+                <img className="button-icon" src={linkedin} alt="linkedin button"/>
               </Button>
             </Col>
 
             <Col xs={4-4} md={4-4}>
               <Button className="link-button" bsStyle="primary">
-                <img className="button-icon" src={github}/>
+                <img className="button-icon" src={github} alt="github button"/>
             </Button>
             </Col>
           </Row>

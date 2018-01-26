@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Bootstrap, Button, Jumbotron, Row, Grid, Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import ScrollingColorBackground from 'react-scrolling-color-background'
-import NavBar from './HeaderComponent/NavBar.js';
+// import NavBar from './HeaderComponent/NavBar.js';
 import Intro from './Introduction/Intro.js';
 import CodeIcons from './CodeIconsComponent/CodeIcons.js';
 import Links from './LinksComponent/Links.js';
