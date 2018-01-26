@@ -60,16 +60,21 @@ body {
 }
 
 .screenshot {
-  max-width: 40%;
+  max-width: 100%;
 }
 
 .icon {
-  max-width: 35%;
-  margin-bottom: 20px;
+  max-width: 30%;
+  padding-bottom: 30px;
   filter: drop-shadow( -2px -2px 2px #fff );
 }
 
-#project {
+#icon-container {
+  font-size: 4em;
+  display: inline;
+}
+
+.project {
   width: 100%;
 }
 
