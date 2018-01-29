@@ -36,7 +36,7 @@ class HomePage extends Component {
         {/* <NavBar /> */}
 
         <section
-          data-background-color='rgb(4, 20, 79)'
+          data-background-color='rgb(32, 202, 172)'
           className='js-color-stop'
           id="intro-section"
         >

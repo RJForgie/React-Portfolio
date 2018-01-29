@@ -6,21 +6,10 @@ import linkedin from '../../images/linkedin.svg'
 class Links extends Component {
   render() {
     return (
-        <Grid>
-          <Row className="show-grid">
-            <Col xs={6} md={6}>
-              <Button className="link-button" bsStyle="primary">
-                <img className="button-icon" src={linkedin} alt="linkedin button"/>
-              </Button>
-            </Col>
-
-            <Col xs={4-4} md={4-4}>
-              <Button className="link-button" bsStyle="primary">
-                <img className="button-icon" src={github} alt="github button"/>
-            </Button>
-            </Col>
-          </Row>
-        </Grid>
+        <div style={{"height" : "200px", "margin-top" : "20px"}}>
+          <a href="https://github.com/RJForgie/">GitHub</a>
+          <a href="">LinkedIn</a>
+        </div>
       );
     }
   }

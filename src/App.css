@@ -4,13 +4,6 @@ body {
   color: #000;
 }
 
-.link-button {
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  vertical-align: center;
-}
-
 #intro-section {
   height: 100vh;
   display: flex;
@@ -56,7 +49,7 @@ body {
   border-width: 10px;
   border-color: white;
   border-style: solid;
-  margin: 0px;
+  margin: 20px;
 }
 
 .screenshot {
