@@ -28,11 +28,6 @@ class Project extends Component {
             </div>
           </Col>  
         </Row>
-        {/* <Row>
-          <div>
-            <p>{this.props.project1.description}</p>
-          </div>
-        </Row> */}
       </Grid>
     )
   }

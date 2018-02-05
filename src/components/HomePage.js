@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
 import ScrollingColorBackground from 'react-scrolling-color-background'
-// import NavBar from './HeaderComponent/NavBar.js';
 import Intro from './Introduction/Intro.js';
 import CodeIcons from './CodeIconsComponent/CodeIcons.js';
 import Links from './LinksComponent/Links.js';
@@ -33,35 +31,22 @@ class HomePage extends Component {
           colorDataAttribute='data-background-color'
           initialRgb='rgb(0, 0, 0)'
         />
-        {/* <NavBar /> */}
 
         <section
           data-background-color='rgb(32, 202, 172)'
           className='js-color-stop'
           id="intro-section"
         >
-          <div
-            style={{ "position": "absolute", "width": "100%" }}
-          >
+          <div id="intro-container">
             <Intro />
             <Links />
           </div>
         </section>
 
         <section
-          data-background-color='rgb(32, 202, 172)'
-          className='js-color-stop'
-          id="background-section"
-        >
-          <div className="project">
-            <CodeIcons project={project1} />
-          </div>
-        </section>
-
-        <section
           data-background-color='rgb(254, 201, 64)'
           className='js-color-stop'
-          id="project1-section">
+          id="project-section">
           <div className="project">
             <Project project={project1} />
           </div>
@@ -70,7 +55,7 @@ class HomePage extends Component {
         <section
           data-background-color='rgb(101, 45, 172)'
           className='js-color-stop'
-          id="project2-section">
+          id="project-section">
           <div className="project">
             <Project project={project2} />
           </div>
@@ -79,7 +64,7 @@ class HomePage extends Component {
         <section
           data-background-color='rgb(32, 202, 100)'
           className='js-color-stop'
-          id="project3-section">
+          id="project-section">
           <div className="project">
             <Project project={project3} />
           </div>
