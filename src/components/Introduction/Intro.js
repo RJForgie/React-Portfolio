@@ -10,20 +10,17 @@ class Intro extends Component {
           <Row>
             <Col s={12} md={12} lg={12}>
               <img className="profile-img" src={profileImage} alt="My logo" />
-              <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
-                Cicero in 45 BC</p>
+              <p>Software Developer based in Edinburgh, Scotland</p>
             </Col>
           </Row>
           <Row>
             <Col s={12} md={12} lg={12}>
-              <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
-                Cicero in 45 BC</p>
+              <p>Graduate of <a href="https://codeclan.com/">CodeClan</a></p>
             </Col>
           </Row>
           <Row>
             <Col s={12} md={12} lg={12}>
-              <p>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by
-                Cicero in 45 BC</p>
+              <p>Please scroll down to view some of the projects I've built</p>
             </Col>
           </Row>
         </Grid>

@@ -22,8 +22,8 @@ class Project extends Component {
             </div>
 
             <div>
-              <a href="https://github.com/RJForgie/">View on GitHub</a>
-              <a href="">View Demo</a>
+              <a href={this.props.project.github}>View on GitHub</a>
+              <a href={this.props.project.demo}>View Demo</a>
             </div>
           </Col>  
         </Row>

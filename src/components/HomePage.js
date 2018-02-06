@@ -11,15 +11,21 @@ import ProjectDescriptions from '../text/projectDescriptions.js';
 
 const project1 = {icons: ["ruby", "postgresql", "html5", "css3"], 
                   description: ProjectDescriptions.MoneyCashBoard, 
-                  screenshot: MCBScreenshot
+                  screenshot: MCBScreenshot,
+                  github: "https://github.com/RJForgie/Project-Moneycashboard",
+                  demo: "https://ruby-money-cash-board.herokuapp.com/"
                 };
 const project2 = {icons: ["javascript", "nodejs", "html5", "css3"], 
                   description: ProjectDescriptions.TravelSafe, 
-                  screenshot: TSScreenshot
+                  screenshot: TSScreenshot,
+                  github: "https://github.com/RJForgie/Travel-Safe",
+                  demo: "https://travel-safe-app.herokuapp.com/"
                 };
-const project3 = {icons: ["javascript", "nodejs", "html5", "css3"], 
+const project3 = {icons: ["javascript", "nodejs", "mongodb", "html5", "css3"], 
                   description: ProjectDescriptions.WalkableEdinburgh, 
-                  screenshot: WEScreenshot
+                  screenshot: WEScreenshot,
+                  github: "https://github.com/RJForgie/Group-Project-JS-Route-Planner",
+                  demo: "https://walkable-edinburgh.herokuapp.com/"
                 };
 
 class HomePage extends Component {

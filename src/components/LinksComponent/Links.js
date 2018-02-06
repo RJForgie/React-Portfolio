@@ -8,7 +8,7 @@ class Links extends Component {
     return (
         <div style={{"height" : "200px", "margin-top" : "20px"}}>
           <a href="https://github.com/RJForgie/">GitHub</a>
-          <a href="">LinkedIn</a>
+          <a href="https://linkedin.com/in/ryan-forgie">LinkedIn</a>
         </div>
       );
     }
