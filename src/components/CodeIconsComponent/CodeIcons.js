@@ -6,7 +6,6 @@ class CodeIcons extends Component {
       <div id="icon-container">
         {this.props.project.icons.map(item =>
           <span className={"devicons devicons-" + item} />
-          // <img src={item} className="icon" />
         )}
       </div>
     );

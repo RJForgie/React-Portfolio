@@ -25,7 +25,7 @@ const project3 = {icons: ["javascript", "nodejs", "html5", "css3"],
 class HomePage extends Component {
   render() {
     return (
-      <div className="main">
+      <div id="main">
         <ScrollingColorBackground
           selector='.js-color-stop[data-background-color]'
           colorDataAttribute='data-background-color'
@@ -62,7 +62,7 @@ class HomePage extends Component {
         </section>
 
         <section
-          data-background-color='rgb(32, 202, 100)'
+          data-background-color='rgb(38, 202, 100)'
           className='js-color-stop'
           id="project-section">
           <div className="project">

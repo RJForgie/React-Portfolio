@@ -8,21 +8,21 @@ class Project extends Component {
     return (
       <Grid>
         <Row>
-          <Col md={8}>
-            <div style={{"height" : "600px"}}>
+          <Col xs={12} md={8}>
+            <div>
               <img src={this.props.project.screenshot} className="screenshot" alt="project screenshot"/>
             </div>
           </Col>
-          <Col md={4}>
-            <div style={{"height" : "200px"}}>
+          <Col xs={12} md={4}>
+            <div>
               <CodeIcons project={this.props.project}/>
             </div>
             
-            <div style={{"height" : "200px"}}>
+            <div>
                 <p>{this.props.project.description}</p>
             </div>
 
-            <div style={{"height" : "200px"}}>
+            <div>
               <a href="https://github.com/RJForgie/">View on GitHub</a>
               <a href="">View Demo</a>
             </div>

@@ -9,20 +9,17 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 #intro-container {
-  position : absolute; 
   width : 100%;
 }
 
 #project-section {
   height: 100vh;
-  position: relative;
-  display: flex;
   align-items: center;
   text-align: center;
-  
 }
 
 .profile-img {
@@ -45,8 +42,9 @@ body {
 }
 
 #icon-container {
-  font-size: 4em;
+  font-size: 4vw;
   display: inline;
+  max-width: 100%;
 }
 
 .project {
