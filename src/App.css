@@ -1,6 +1,6 @@
 body {
   font-family: futura;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #000;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .profile-img {
   border-radius: 50%;
-  max-width: 20%;
+  max-width: 30%;
   border-width: 5px;
   border-color: white;
   border-style: solid;
@@ -42,13 +42,14 @@ body {
 }
 
 #icon-container {
-  font-size: 4vw;
+  font-size: 6vw;
   display: inline;
   max-width: 100%;
 }
 
 .project {
   width: 100%;
+  padding: 10%;
 }
 
 a {
@@ -57,7 +58,7 @@ a {
   color: #000;
   border: 2px solid #000;
   padding: 10px 20px;
-  margin: 15px 10px 0 10px;
+  margin: 15px 10px 5px 10px;
   background-color: transparent;
 }
 
