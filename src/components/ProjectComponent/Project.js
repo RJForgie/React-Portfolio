@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import { Grid, Row, Col, Button } from 'react-bootstrap'
+import { Grid, Row, Col } from 'react-bootstrap'
 import CodeIcons from '../CodeIconsComponent/CodeIcons.js';
 
 class Project extends Component {
   render () {
-    console.log(this.props.project)
     return (
       <Grid>
         <Row>
