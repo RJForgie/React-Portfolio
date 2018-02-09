@@ -23,11 +23,12 @@ body {
 
 .profile-img {
   border-radius: 50%;
-  max-width: 30%;
+  max-width: 25%;
   border-width: 5px;
   border-color: white;
   border-style: solid;
   margin: 20px;
+  
 }
 
 .screenshot {
