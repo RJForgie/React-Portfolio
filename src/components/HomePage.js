@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ScrollingColorBackground from 'react-scrolling-color-background'
 import Intro from './Introduction/Intro.js';
-import CodeIcons from './CodeIconsComponent/CodeIcons.js';
 import Links from './LinksComponent/Links.js';
 import Project from './ProjectComponent/Project.js';
 import MCBScreenshot from '../images/MoneyCashBoardScreenshot.png';
